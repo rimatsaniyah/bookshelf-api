@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true, // Enable browser global variables
+    "commonjs": true, // Enable CommonJS global variables and CommonJS scoping (for use with Node.js)
+    "es2021": true, // Enable all ECMAScript 2021 features
+    "node": true // Enable Node.js global variables and Node.js scoping
+  },
+  "extends": ["airbnb-base"], // Extend the Airbnb base style guide
+  "parserOptions": {
+    "ecmaVersion": "latest" // Specify the version of ECMAScript syntax you want to use
+  },
+  "rules": {
+    "no-console": "off", // Allow the use of console statements
+    "linebreak-style": ["error", "windows"], // Enforce Windows style line breaks
+    "max-len": ["error", { "code": 120 }] // Set the maximum line length to 120 characters
+  }
+}
